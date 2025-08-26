@@ -1,0 +1,28 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Navigation */
+nav {
+  background-color: #ffb347;
+  display: flex;
